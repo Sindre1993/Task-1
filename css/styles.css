@@ -16,10 +16,23 @@ h1, h2,
     font-family: "Roboto";
 }
 
+nav ul {
+    padding: 0px;
+}
+
+nav li {
+    display: inline-block;
+}
+
 header, 
 footer {
     background-color: #202020;
     color: #FFFFFF
+}
+
+/* Links */
+a {
+    text-decoration: none;
 }
 
 footer {
@@ -27,12 +40,21 @@ footer {
 }
 
 header a {
-    color: #FFF
+    color: #FFF;
+    padding: 10px;
 }
 
 .cta-button {
     background-color: #bb0000;
-    color: #FFFFFF
+    color: #FFFFFF;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 10px 80px;
+    border-radius: 5px;
+}
+
+.active {
+    text-decoration: underline;
 }
 
 .reviews {
@@ -45,6 +67,33 @@ header a {
 
 .cta-view {
     background-color: #bb0000;
-    font-size: 1.5em;
-    color: #FFFFFF;
+    font-size: 0.8em;
+    color: #fff;
+    padding: 8px 30px;
+}
+
+/* Home page */
+.welcome {
+    background-image: url("../images/home-header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    min-height: 70vh;
+}
+
+.selling-points__images {
+    border-radius: 100px;
+}
+
+.review_images {
+    border-radius: 50%;
+}
+
+/* Contact Page */
+input,
+select,
+textarea {
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
 }
