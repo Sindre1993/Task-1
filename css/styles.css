@@ -80,6 +80,14 @@ header a {
     background-position-x: right;
     background-position-y: bottom;
     min-height: 70vh;
+    position: relative;
+}
+
+.welcome__content {
+position: absolute;
+text-align: center;
+top: 100px;
+left: 100px;  
 }
 
 .selling-points__images {
